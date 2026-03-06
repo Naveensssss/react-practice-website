@@ -3,7 +3,7 @@ import About from "./About";
 import Home from "./Home";
 import Service from "./Service";
 import Doctors from "./Doctors";
-import { HashRouter, Link, NavLink, Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Link, NavLink, Navigate, Route, Routes } from "react-router-dom";
 import LoginAsDoctor from "./LoginAsDoctor";
 import LoginAsPatient from "./LoginAsPatient";
 import Contact from "./Contact";
@@ -12,7 +12,7 @@ import Contact from "./Contact";
 function App() {
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
       <div className="container-fluid">
         <div className="row">
           <div className="col-12 w-100 px-0">
@@ -69,7 +69,7 @@ function App() {
           <Route path="/login/patient" element={<LoginAsPatient></LoginAsPatient>}></Route>
           <Route path="/*" element={<Navigate to="/"></Navigate>}></Route>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }
