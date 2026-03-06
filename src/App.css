@@ -1,0 +1,153 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.about-background{
+  background-image: url('images/about-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.shadow{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.home-background{
+  background-image: url('images/home-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.home-input{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 30px;
+}
+.home-input::placeholder{
+  font-weight: 500;
+  color: rgb(117,117,117);
+}
+.home-search{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: linear-gradient(to bottom, rgb(158,219,219), rgb(58,181,181), rgb(109,180,180));
+  color: white;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.158) 0px 8px 16px -8px;
+}
+.home-input-icon{
+  position: absolute;
+  top: 14px;
+  left: 22px;
+  font-size: 14px;
+  color: rgb(117,117,117);
+}
+.home-btn{
+  background-color: rgb(18,139,139);
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.home-btn:hover{
+  background-color: rgb(16, 100, 100);
+}
+@media (min-width: 992px) {
+  .service-border{
+    border-right: 1px solid rgb(155, 155, 155);
+  }
+}
+.login-btn{
+  background: linear-gradient(to bottom, rgb(158,219,219), rgb(58,181,181), rgb(109,180,180));
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  transition: 0.5s;
+}
+.login-btn:hover{
+  background: linear-gradient(to bottom, rgb(141, 196, 196), rgb(49, 155, 155), rgb(91, 151, 151));
+}
+.login-input{
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid rgb(206, 205, 205);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 30px;
+}
+.login-input:focus{
+  outline: none;
+}
+.doctor-btn{
+  background: linear-gradient(to bottom, rgb(158,219,219), rgb(58,181,181), rgb(109,180,180));
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  transition: 0.5s;
+}
+.doctor-btn:hover{
+  background: linear-gradient(to bottom, rgb(141, 196, 196), rgb(49, 155, 155), rgb(91, 151, 151));
+}
+.doctor-input{
+  border: 1px solid rgb(13,110,253);
+}
+.doctor-input::placeholder{
+  color: rgb(13,110,253);
+}
+.doctor-filter{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 8px;
+}
+.contact-background{
+  background: url('images/contact-bg.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+.contact-input{
+  background-color: rgb(240,241,248);
+  color: grey;
+}
+.contact-btn{
+  background: linear-gradient(to bottom, rgb(158,219,219), rgb(58,181,181), rgb(109,180,180));
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  transition: 0.5s;
+}
+.contact-btn:hover{
+  background: linear-gradient(to bottom, rgb(141, 196, 196), rgb(49, 155, 155), rgb(91, 151, 151));
+}
