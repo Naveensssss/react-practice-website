@@ -45,9 +45,6 @@ function App() {
                     <li className="nav-item">
                       <NavLink to="/contact" className="nav-link fs-5 fw-bold me-3">Contact Us</NavLink>
                     </li>
-                    {/* <li className="nav-item">
-                      <NavLink to="/login/doctor" className="nav-link fs-5 fw-bold">Login</NavLink>
-                    </li> */}
                     <li className="nav-item">
                       <NavLink to="/login" className={()=>window.location.pathname.includes("/login")?"nav-link fs-5 fw-bold active":"nav-link fs-5 fw-bold"}>Login</NavLink>
                     </li>
